@@ -1,0 +1,196 @@
+.navpic {
+  border-radius: 9%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.center{
+  text-align: center !important;
+}
+
+.row {
+  margin-top: 80px;
+}
+
+.nav-link{
+  cursor: pointer;
+}
+
+#title {
+  background-color: #9A9483;  /*495C83*/
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+.btn {
+  position: left;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.hod {
+    max-width: 100%;
+    border-radius: 7%;
+}
+
+strong {
+  color: #424242;
+}
+
+h1 {
+  /* font: Montserrat; */
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  /* text-align: left; */
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #424242;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+h4 {
+    color: #8f8f8f;
+
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: normal;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+i{
+  cursor: pointer;
+}
+
+#overview {
+  margin-top: 80px;
+  background-color: #AAA492;
+  text-align: center;
+  color: #fff;
+}
+
+.item-text {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.overview-text {
+  padding: 7% 15%;
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 0px;
+}
+
+#features {
+}
+
+.blackTextOverride {
+  color: #000 !important;
+}
+
+.fa-solid {
+  color: #7A86B6;
+}
+.fa-solid:hover {
+  color: #495C83;
+}
+
+.test-img {
+  max-width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#offerings {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #AAA492;
+  color: #fff;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 7% 15% 3%;
+}
+
+.foot-icon {
+  padding-bottom: 10px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(73, 122, 255, .8);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgb(73, 122, 255);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
